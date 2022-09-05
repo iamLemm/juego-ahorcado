@@ -1,0 +1,27 @@
+body{position: relative; background-color: #00191e;}
+
+.logoAlura{
+    float: left;
+    margin: 1em;
+    width: 120px;
+    height: 48px;
+    left: 40px;
+    top: 40px;
+    padding: 10px;
+}
+
+header h1{
+    font-family: 'Syne Mono', monospace;
+    display: inline-block;
+    color: #0A3871;
+    text-align: center;
+    font-size: 42px;
+    vertical-align: top;
+}
+
+footer{
+    font-family: 'Syne Mono', monospace;
+    color: #0A3871;
+    text-align: center;
+    line-height: 0.5;
+}
