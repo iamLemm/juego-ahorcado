@@ -1,4 +1,12 @@
-body{position: relative; background-color: #00191e;}
+html{
+    width: 940px;
+    margin: auto 0;
+}
+
+body{
+    position: relative; 
+    background-color: #00191e;
+}
 
 .logoAlura{
     float: left;
@@ -19,9 +27,64 @@ header h1{
     vertical-align: top;
 }
 
+.boton-iniciar{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 60px;    
+    position: absolute;
+    width: 317px;
+    height: 114px;
+    left: 561px;
+    top: 402px;
+    gap: 8px;
+
+    font-family: 'Syne Mono', monospace;
+    font-size: 35px;
+    text-align: center;
+    color: white;
+    
+    /* Dark blue/dark-blue-300 */
+    
+    background: #0A3871;
+    border-radius: 24px;
+}
+
+.boton-agregar{
+    /* Button */
+    
+    
+    box-sizing: border-box;
+    
+    /* Auto layout */
+    
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 24px 60px;
+    gap: 8px;
+
+    position: absolute;
+    width: 280px;
+    height: 67px;
+    left: 579px;
+    top: 554px;
+
+    font-family: 'Syne Mono', monospace;
+    font-size: 20px;
+    text-align: center;
+    color: #0A3871;
+
+    /* Dark blue/dark-blue-300 */
+
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+}
+
 footer{
     font-family: 'Syne Mono', monospace;
     color: #0A3871;
     text-align: center;
     line-height: 0.5;
+    vertical-align: bottom;
 }
