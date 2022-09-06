@@ -14,7 +14,7 @@ header{
 
 .logoAlura{
     float: left;
-    margin: 1em;
+    margin: 1.5em;
     width: 120px;
     height: 48px;
     left: 40px;
@@ -23,7 +23,7 @@ header{
 }
 
 header h1{
-    font-family: 'Syne Mono', monospace;
+    font-family: 'Monoton', cursive;
     display: inline-block;
     color: #0A3871;
     text-align: center;
